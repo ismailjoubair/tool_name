@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "Enter your name:"
+read name
+
+echo "Enter the hour (e.g., 14 for 2PM):"
+read hour
+
+echo ""
+echo "Welcome, $name! The hour is set to $hour:00."
+echo ""
+echo "Choose an option:"
+echo "1. Say Hello"
+echo "2. Show Time"
+echo "3. Exit"
+read choice
+
+case $choice in
+  1)
+    echo "Hello, $name!"
+    ;;
+  2)
+    echo "Current chosen hour is $hour:00"
+    ;;
+  3)
+    echo "Goodbye!"
+    ;;
+  *)
+    echo "Invalid option."
+    ;;
+esac
