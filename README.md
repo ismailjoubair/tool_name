@@ -20,5 +20,5 @@
 1. Clone or download the script:
 
 ```bash
-git clone https://github.com/yourusername/mytool.git
+git clone https://github.com/ismailjoubair/mytool.git
 cd mytool
